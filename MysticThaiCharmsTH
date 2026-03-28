@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>นาถ่อน หมูกระทะ สุกี้ - Nathon Moo-Krata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        .gold-text {
+            color: #d4af37;
+        }
+
+        .menu-card {
+            background: linear-gradient(180deg, rgba(30, 30, 30, 0.8) 0%, rgba(10, 10, 10, 1) 100%);
+            border: 1px solid #333;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+
+        .menu-card:hover {
+            border-color: #d4af37;
+            transform: translateY(-12px);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+        }
+
+       .hero-section {
+    background: url('https://i.postimg.cc/kX0BjzfD/xxkbaeb-hn-awe-b-si-thr-anhm-kratha-th-ms-da-m-ch-xngsi-men-4ch-xng-202603251841.png') no-repeat center center;
+    background-size: cover;
+    height: 85vh;
+}
+}
+        }
+
+        .category-icon {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            background-color: #b91c1c; 
+            border: 2px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            z-index: 10;
+        }
+
+        .nav-link:hover {
+            color: #d4af37;
+        }
+
+        .gradient-title {
+            background: linear-gradient(to right, #fbbf24, #ef4444, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-sm border-b border-white/5">
+        
+
+                <div class="hidden md:flex space-x-10 items-center">
+                    <a href="#" class="nav-link text-red-500 font-medium tracking-widest text-xs">HOME</a>
+                    <a href="#menu" class="nav-link text-white font-medium tracking-widest text-xs">MENU</a>
+                    <a href="#" class="nav-link text-white font-medium tracking-widest text-xs">ABOUT</a>
+                    <a href="https://www.facebook.com/nathonmookata169"target="_blank" class="nav-link text-white font-medium tracking-widest text-xs">CONTACT</a>
+                    <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LEwyKcgysswwYLRSNagwNjRONjQ1SrNMTTU3NDBLsgIKWSSnJlmmpVqYmialGKeZemk92DHzwY5ND3ZMe7Cz48GOtWDu6gc7Fj7YsfPBjsYHOxY_2LHhwY7pQBIA3TAumw&q=%E0%B8%99%E0%B8%B2%E0%B8%96%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B0&oq=%E0%B8%99%E0%B8%B2&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxivARjHARiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhIIARAuGCcYrwEYxwEYgAQYigUyBggCEEUYOTIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIGCAcQABgDMg0ICBAAGIMBGLEDGIAEMg0ICRAAGIMBGLEDGIAE0gEJMzc0MmowajE1qAIIsAIB8QWImhxmeTDhwg&sourceid=chrome&ie=UTF-8&zx=1774593165629&no_sw_cr=1#lrd=0x313c152f9ee7106b:0x38ceb9fe855bd3f5,3,,,," class="ml-4 border border-gold-text px-5 py-2 rounded-full text-gold-text text-xs tracking-widest hover:bg-gold-text hover:text-black transition-all">REVIEW US</a>
+                </div>
+
+                <div class="md:hidden text-white p-2">
+                    <i class="fas fa-bars text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section flex items-center justify-center text-center px-4 relative cursor-pointer group">
+        
+        <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LEwyKcgysswwYLRSNagwNjRONjQ1SrNMTTU3NDBLsgIKWSSnJlmmpVqYmialGKeZemk92DHzwY5ND3ZMe7Cz48GOtWDu6gc7Fj7YsfPBjsYHOxY_2LHhwY7pQBIA3TAumw&q=%E0%B8%99%E0%B8%B2%E0%B8%96%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B0&oq=%E0%B8%99%E0%B8%B2&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxivARjHARiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhIIARAuGCcYrwEYxwEYgAQYigUyBggCEEUYOTIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIKCAYQABixAxiABDIGCAcQABgDMg0ICBAAGIMBGLEDGIAEMg0ICRAAGIMBGLEDGIAE0gEJMzc0MmowajE1qAIIsAIB8QWImhxmeTDhwg&sourceid=chrome&ie=UTF-8&zx=1774593165629&no_sw_cr=1#lrd=0x313c152f9ee7106b:0x38ceb9fe855bd3f5,3,,,," target="_blank" class="absolute inset-0 z-0"></a>
+
+        <div class="max-w-4xl pt-20 relative z-10 pointer-events-none">
+            <div class="mt-[500px] flex flex-col sm:flex-row justify-center gap-4 pointer-events-auto">
+                <a href="#menu" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gold-text transition-colors text-sm shadow-lg">ดูเมนูอาหาร</a>
+                <a href="https://www.facebook.com/nathonmookrata169" target="_blank" class="border border-white/30 text-white px-10 py-4 rounded-full font-bold hover:bg-white/10 transition-colors text-sm shadow-lg backdrop-blur-sm">ติดต่อเรา</a>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0a0a0a] to-transparent pointer-events-none"></div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="max-w-7xl mx-auto px-4 py-24">
+        <div class="text-center mb-20">
+            <div class="inline-block h-1 w-20 bg-red-600 mb-4"></div>
+            <h2 class="text-4xl font-bold tracking-tight uppercase">เมนูแนะนำของเรา</h2>
+            <p class="text-4xl font-bold tracking-widest text-sm italic">" ของอร่อยไม่จำเป็นต้องเเพง "</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-6">
+            
+            <!-- Category 1 -->
+            <div class="menu-card rounded-2xl pt-10 pb-8 px-6 text-center">
+                <div class="category-icon"><i class="fas fa-pig text-white text-xl"></i></div>
+                <div class="mb-6 overflow-hidden rounded-xl h-48 border border-white/5">
+                    <img src="https://i.postimg.cc/LhdKKrC4/unnamed-(1).jpg"
+                
+                        " alt="หมูและเนื้อ" class="w-full h-full object-cover opacity-80 hover:scale-110 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold mb-4 tracking-wider">เมนูหมู</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">หมูกระทะกิโลละ</span><span class="gold-text">169</span></div>
+                  
+                </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="menu-card rounded-2xl pt-10 pb-8 px-6 text-center">
+                <div class="category-icon"><i class="fas fa-shrimp text-white text-xl"></i></div>
+                <div class="mb-6 overflow-hidden rounded-xl h-48 border border-white/5">
+                    <img src="https://i.postimg.cc/Jz0r3Wf5/2.png" alt="อาหารทะเล" class="w-full h-full object-cover opacity-80 hover:scale-110 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold mb-4 tracking-wider">เมนูทะเลเเละท็อปปิ้ง</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">กิโลละ</span><span class="gold-text">169</span></div>
+                   
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="menu-card rounded-2xl pt-10 pb-8 px-6 text-center">
+                <div class="category-icon"><i class="fas fa-leaf text-white text-xl"></i></div>
+                <div class="mb-6 overflow-hidden rounded-xl h-48 border border-white/5">
+                    <img src="https://i.postimg.cc/Kj5Gfcc6/tha-po-s-te-x-por-mo-thr-an-thale-dxng100-2K-202603261806.jpg" alt="ผัก" class="w-full h-full object-cover opacity-80 hover:scale-110 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold mb-4 tracking-wider uppercase">ทะเลดอง</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">เเซลม่อนดอง</span><span class="gold-text">100</span></div>
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">กุุังดอง</span><span class="gold-text">100</span></div>
+                    <div class="flex justify-between"><span class="text-gray-400">แซลม่อน+กุ้ง</span><span class="gold-text">100</span></div>
+                </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="menu-card rounded-2xl pt-10 pb-8 px-6 text-center">
+                <div class="category-icon"><i class="fas fa-glass-water text-white text-xl"></i></div>
+                <div class="mb-6 overflow-hidden rounded-xl h-48 border border-white/5">
+                    <img src="https://i.postimg.cc/xTSgbfbw/hm-al-a-th-ng-2K-202603271305.png" alt="เครื่องดื่ม" class="w-full h-full object-cover opacity-80 hover:scale-110 transition duration-500">
+                </div>
+                <h3 class="text-xl font-bold mb-4 tracking-wider uppercase">หมาล่า ทั่ง(เร็วๆนี้)</h3>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">ขีดละ</span><span class="gold-text">25</span></div>
+                    <div class="flex justify-between border-b border-white/5 pb-2"><span class="text-gray-400">ขีดละ</span><span class="gold-text">25</span></div>
+                    <div class="flex justify-between"><span class="text-gray-400">ขีดละ</span><span class="gold-text">25</span></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-20 text-center">
+            <button class="border border-gold-text text-gold-text px-12 py-3 rounded-full hover:bg-gold-text hover:text-black transition-all uppercase tracking-widest text-xs font-bold">
+                Learn More
+            </button>
+        </div>
+    </section>
+    <section id="gallery" class="max-w-7xl mx-auto px-4 py-24 border-t border-white/5">
+        <div class="text-center mb-16">
+            <h3 class="text-gold-text tracking-widest uppercase mb-2">Our Atmosphere</h3>
+            <h2 class="text-4xl font-bold">บรรยากาศร้านนาถ่อน</h2>
+            <p class="text-gray-500 mt-4 italic">" มาสัมผัสความอร่อยท่ามกลางบรรยากาศเป็นกันเองที่นครพนม "</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="md:col-span-2 overflow-hidden rounded-3xl h-[400px] border border-white/10 group">
+                <img src="https://i.postimg.cc/sXYZhZqx/474447733-633343052599651-6119649471067005282-n.jpg" class="w-full h-full object-cover transition duration-700 group-hover:scale-110" alt="จุดสังเกตุหน้าร้านค่ะ">
+            </div>
+            
+            <div class="overflow-hidden rounded-3xl h-[400px] md:h-auto border border-white/10 group">
+                <img src="https://i.postimg.cc/bvBj9CXg/486680898-696437586290759-6977766649347312258-n.jpg" class="w-full h-full object-cover transition duration-700 group-hover:scale-110" alt="ในร้านค่ะ">
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+             <div class="overflow-hidden rounded-3xl h-[300px] border border-white/10 group">
+                <img src="https://i.postimg.cc/gJ7krckY/ig-2k-delpmaspu-(5).jpg" class="w-full h-full object-cover transition duration-700 group-hover:scale-110" alt="ทะเลดอง100คะ">
+            </div>
+            <div class="overflow-hidden rounded-3xl h-[300px] border border-white/10 group">
+                <img src="https://i.postimg.cc/ncGrGJ37/486640863-696868816247636-7698929879786463774-n.jpg" class="w-full h-full object-cover transition duration-700 group-hover:scale-110" alt="ขอบคุณลูกค้าที่อุดหนุนคลอดมาคะ">
+            </div>
+        </div>
+    </section>
+   <section id="video-highlight" class="max-w-7xl mx-auto px-4 py-24 border-t border-white/5 bg-black">
+        <div class="text-center mb-16">
+            <h3 class="text-red-500 tracking-widest uppercase mb-2">Short Clip</h3>
+            <h2 class="text-4xl font-bold">ชมความอร่อยแบบจัดเต็ม</h2>
+        </div>
+<div class="flex justify-center">
+            <div class="w-full md:w-2/3 lg:w-1/2 aspect-[9/16] rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-black">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mookatanathon169/video/7621522661172120853" data-video-id="7621522661172120853" style="width: 100%; height: 100%; margin: 0;">
+                    <section>
+                        <a target="_blank" title="@mookatanathon169" href="https://www.tiktok.com/@mookatanathon169?refer=embed">@mookatanathon169</a>
+                        <p>#นาถ่อน #หมูกระทะ #สุกี้</p>
+                    </section>
+                </blockquote>
+                <script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="max-w-7xl mx-auto px-4 py-24 border-t border-white/5">
+        <div class="text-center mb-12">
+            <h3 class="text-gold-text tracking-widest uppercase mb-2">Location</h3>
+            <h2 class="text-4xl font-bold">แวะมาหาเราที่นาถ่อน</h2>
+            <p class="text-gray-400 mt-4 italic">ต.นาถ่อน อ.ธาตุพนม จ.นครพนม</p>
+        </div>
+        
+        <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl h-[450px] bg-gray-900">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3812.8882365990944!2d104.7500436!3d17.1269502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313c152f9ee7106b%3A0x38ceb9fe855bd3f5!2z4LiZ4Liy4LiW4LmI4Lit4LiZ4Lir4Lih4Li54LiB4Lij4Liw4LiX4LiwMTY5!5e0!3m2!1sth!2sth!4v1774598712451!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                class="w-full h-full border-0 grayscale-[20%]" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        
+        <div class="mt-10 text-center">
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3806.452!2d104.728!3d17.281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313d4b689d13664f%3A0x69687e85740f429d!2z4LiZ4Liy4LiW4Liy4Lit4LiZ4Lih4Li54LiB4Liy4LiX4LiwIOC4quC4uOC4geC4teC5iA!5e0!3m2!1sth!2sth!4v1711526400000!5m2!1sth!2sth" target="_blank" class="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold transition-all shadow-xl hover:scale-105">
+                <i class="fas fa-location-dot"></i> 
+                <span>เปิดใน Google Maps เพื่อนำทาง</span>
+            </a>
+        </div>
+    </section>
+          
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 bg-black/50 text-center">
+        <div class="text-2xl font-bold mb-6">นาถ่อน<span class="text-red-500">หมูกระทะ</span></div>
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="#" class="text-gray-500 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-gray-500 hover:text-white"><i class="fab fa-line"></i></a>
+            <a href="#" class="text-gray-500 hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="text-gray-600 text-[10px] tracking-[0.3em] uppercase">© 2026 Nathon Moo-Krata Suki. Premium Experience.</p>
+    </footer>
+
+</body>
+</html>
